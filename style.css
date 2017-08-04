@@ -1,0 +1,30 @@
+body {
+  background-color: #584E56;
+}
+
+h1 {
+  color: #fff;
+  text-align: center;
+  margin: 10px 0;
+  font-family: roboto;
+  font-weight: bold;
+  font-size: 2.4rem;
+  text-transform: uppercase;
+  letter-spacing: .3rems;
+}
+
+.square {
+  stroke-dasharray: 650;
+  stroke-dashoffset: -650;
+  animation: draw-square 1s infinite;
+}
+
+.main {
+  background-color: #05B8CC;
+  height: 300px;
+  width: 600px;
+  border-radius: ;
+  position: relative;
+  left: 300px;
+  padding: 32px;
+}
