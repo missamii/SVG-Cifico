@@ -13,11 +13,7 @@ h1 {
   letter-spacing: .3rems;
 }
 
-.square {
-  stroke-dasharray: 650;
-  stroke-dashoffset: -650;
-  animation: draw-square 1s infinite;
-}
+.rocket {}
 
 .main {
   background-color: #05B8CC;
