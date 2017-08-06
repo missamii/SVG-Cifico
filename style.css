@@ -21,6 +21,9 @@ svg {
   margin: auto;
 }
 
+
+/* keyframes prototype or example of how it should work using JS*/
+
 .red, .green {
   transform-origin: 60% 60%;
   -webkit-animation: zoom 1s ease-in-out infinite alternate;
