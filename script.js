@@ -3,7 +3,7 @@ window.onload = function() {
 
 
   // displaying each circle's value as they grow and shrink
-  // var redValue = document.getElementById('red-grow').innerHTML =
+  var redValue = document.getElementById('red-grow').innerHTML = span;
   // var greenValue = document.getElementById('green-grow').innerHTML =
 
   var redCircle = document.getElementsByClassName('red');
@@ -15,7 +15,7 @@ window.onload = function() {
 
   // scaling up both circles
   function scaleUp() {
-    console.log(scaleUp);
+    //  console.log(scaleUp);
     current += (destination - current) * friction;
     redCircle[0].style.width = (current * 0.5 + 'px');
     greenCircle[0].style.width = (current * 0.5 + 'px');
@@ -27,7 +27,7 @@ window.onload = function() {
 
   // scaling down both circles
   function scaleDown() {
-    console.log(redCircle[0].style, greenCircle[0].style);
+    //console.log(redCircle[0].style, greenCircle[0].style);
     current += (destination - current) * friction;
     redCircle[0].style.width = (current * 0.5 + 'px');
     greenCircle[0].style.width = (current * 0.5 + 'px');
