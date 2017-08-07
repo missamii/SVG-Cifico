@@ -4,7 +4,6 @@ body {
 
 h1 {
   color: #fff;
-  text-align: center;
   margin: 10px 0;
   font-family: 'Roboto', sans-serif;
   font-weight: bold;
@@ -19,6 +18,15 @@ svg {
   left: 0;
   bottom: 0;
   margin: auto;
+}
+
+span {
+  padding-right: 65px;
+}
+
+.spans {
+  position: absolute;
+  left: 100px;
 }
 
 
@@ -40,3 +48,8 @@ svg {
 }
 
 .timeline {}
+
+.below {
+  position: absolute;
+  bottom: 0;
+}

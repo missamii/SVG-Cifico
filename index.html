@@ -9,24 +9,32 @@
   <body>
 
     <h1>Animation SVG</h1>
+    <div class="main">
 
-    <span class="" id="red-grow">
-      <!-- display here the red circle's value when growing and shrinking -->
-      Value:
-    </span>
-    <span class="" id="green-grow">
-      <!-- display here the green circle's value when growing and shrinking -->
-      Value:
-    </span>
-    <svg width="500" height="300" xmlns="http://www.w3.org/2000/svg">
-      <path fill="none" d="M-1-1h502v302H-1z"/>
-      <g>
-        <path class="timeline" stroke-linecap="null" stroke-linejoin="null" stroke-opacity="null" stroke-width="4.5" stroke="#000" fill="none" d="M39.5 31.5v239M463.5 269.5l-422-1"/>
-        <ellipse class="red" stroke="#e5a3a3" ry="65.5" rx="67" cy="165" cx="158.5" stroke-width="4.5" fill="none"/>
-        <ellipse class="green" stroke="#98FB98" ry="65.5" rx="67" cy="165" cx="361.5" stroke-width="4.5" fill="none"/>
-      </g>
-    </svg>
-    <a href="https://codepen.io/tiffanylo/pen/vJgLOX">Codepen Demo</a>
+      <div class="spans">
+
+        <span class="" id="red-grow">
+          <!-- display here the red circle's value when growing and shrinking -->
+          Value:
+        </span>
+        <span class="" id="green-grow">
+          <!-- display here the green circle's value when growing and shrinking -->
+          Value:
+        </span>
+      </div>
+      <svg width="500" height="300" xmlns="http://www.w3.org/2000/svg">
+        <path fill="none" d="M-1-1h502v302H-1z"/>
+        <g>
+          <path class="timeline" stroke-linecap="null" stroke-linejoin="null" stroke-opacity="null" stroke-width="4.5" stroke="#000" fill="none" d="M39.5 31.5v239M463.5 269.5l-422-1"/>
+          <ellipse class="red" stroke="#e5a3a3" ry="65.5" rx="67" cy="165" cx="158.5" stroke-width="4.5" fill="none"/>
+          <ellipse class="green" stroke="#98FB98" ry="65.5" rx="67" cy="165" cx="361.5" stroke-width="4.5" fill="none"/>
+        </g>
+      </svg>
+
+      <p class="below">
+        <a href="https://codepen.io/tiffanylo/pen/vJgLOX">Codepen Demo</a>
+      </p>
+    </div>
 
   </body>
   <script type="text/javascript" src="script.js"></script>
